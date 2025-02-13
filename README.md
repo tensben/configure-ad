@@ -337,102 +337,184 @@ Once the script is finished, open ADUC and see the _EMPLOYEES folder. Choose one
 ![Screenshot 2025-02-03 160147](https://github.com/user-attachments/assets/74b70052-138a-445b-9001-204b8aee5819)
 
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
 <h2>Group Policy and Managing Accounts</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this section of the lab, we will learn how to handle account lockouts and password resets. First, we have to set up the account lockout policy in Active Directory. To do this, we will use Group Policy to configure it. 
+
+Login to dc-1. In the start menu, open run and type gpmc.msc, Enter. You are now in the Group Policy Management Console (GPMC). Right-click the Group Policy Objects (GPO) and select New or Edit the Default Domain Policy. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![Screenshot 2025-02-03 164904](https://github.com/user-attachments/assets/49988b4e-b792-4342-9676-a304b63e0773)
+
+![Screenshot 2025-02-03 164944](https://github.com/user-attachments/assets/2a9bb396-811e-43d5-91b8-79ad6fee5be7)
+
+![Screenshot 2025-02-03 165037](https://github.com/user-attachments/assets/231ece35-193b-4d1d-adf3-275449d15419)
+
+![Screenshot 2025-02-03 165126](https://github.com/user-attachments/assets/926e3559-a98c-4c39-8248-b31860fdbaf2)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In the editor, go to Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies> Account Lockout Policy. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![Screenshot 2025-02-03 165151](https://github.com/user-attachments/assets/0de70138-513f-4151-a69a-fcd0257805fe)
+
+![Screenshot 2025-02-03 165347](https://github.com/user-attachments/assets/38e569ef-f518-4af6-931b-da87b9af06a9)
+
+![Screenshot 2025-02-03 165416](https://github.com/user-attachments/assets/dd9686e1-cacc-4211-ae62-e9ae0fd6c02d)
+
+![Screenshot 2025-02-03 165458](https://github.com/user-attachments/assets/c2d1fa4b-45a4-4ab8-8809-5ec1c39bbfb4)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+On the right side, select Account lockout duration and set it to 30 minutes. Hit Apply and OK. You will see that the lockout threshold (5 invalid logon attempts) and reset account (10 minutes) have been automatically filled in. Enabled allow administrator account lockout.
 </p>
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  
+![Screenshot 2025-02-03 165632](https://github.com/user-attachments/assets/148f0727-9bc4-44d7-bf6b-84a00c3b5ffc)
+
+![Screenshot 2025-02-03 165719](https://github.com/user-attachments/assets/e1d2cb84-6a73-4690-a31f-0f106453c2af)
+
+![Screenshot 2025-02-03 165742](https://github.com/user-attachments/assets/e2a3192c-c3eb-4134-9621-0eb8e00c9015)
+
+</p>
+
+<p>
+Wait 90 minutes for the policy to update, or manually update it by logging in as jane_admin in client -1 VM, opening the Command Prompt, typing gpupdate/force, and then pressing Enter.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![Screenshot 2025-02-03 170406](https://github.com/user-attachments/assets/f779b798-0f18-4f28-a097-186d395abdb9)
+
+![Screenshot 2025-02-03 170432](https://github.com/user-attachments/assets/ea2062e8-3851-48d9-94dd-00cce4816320)
+
+![Screenshot 2025-02-03 170738](https://github.com/user-attachments/assets/494d0294-1b84-435d-8925-a265d33d3db8)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Log in to dc-1, pick a random user account, and attempt to log in ten times in client -1 with a lousy password until the account is locked. 
 </p>
 <br />
+
+<p>
+  
+![Screenshot 2025-02-03 170933](https://github.com/user-attachments/assets/134f1ecb-4dde-4d24-8ef1-72e3a77b95f3)
+
+</p>
+<p>
+Unlock the account by going back to dc-1 Active Directory Users and Computers and right-clicking mydomain to find the user whose account is locked. Double-click the user, go to Account, and check the box to unlock the account, then Apply. Go back to client -1 and log in as the user to see if it unlocks.
+</p>
+<br />
+
+<p>
+  
+![Screenshot 2025-02-03 171123](https://github.com/user-attachments/assets/1c7df20a-8e4e-4545-b310-53d073f236c3)
+
+![Screenshot 2025-02-03 171201](https://github.com/user-attachments/assets/ac6629f0-74c7-4130-bc5e-8102165edae3)
+
+![Screenshot 2025-02-03 171244](https://github.com/user-attachments/assets/67f5446f-8cc1-4f40-bf2d-a4cf87065c1c)
+
+![Screenshot 2025-02-03 171326](https://github.com/user-attachments/assets/6f19d32b-860b-4961-bb67-8cf60f633d08)
+
+![Screenshot 2025-02-03 171519](https://github.com/user-attachments/assets/d26a3d23-5947-4853-9ba5-432b52e89de8)
+
+![Screenshot 2025-02-03 171551](https://github.com/user-attachments/assets/db1757ab-11b9-48a0-9b78-3972f439fbd4)
+
+</p>
+<p>
+With the same user, we will reset the password by right-clicking the user, selecting reset password, entering the new password, and then OK.
+</p>
+<br />
+
+<p>
+  
+![Screenshot 2025-02-03 171727](https://github.com/user-attachments/assets/71914d98-9180-4a15-bfa8-833171247e54)
+
+![Screenshot 2025-02-03 171745](https://github.com/user-attachments/assets/d0c2ec29-1e14-46b5-a3a2-dd8150d5a3e9)
+
+</p>
+<p>
+Now, we will disable a user account by searching for the user, right-clicking the user name, and selecting "disable account." You will know the account is disabled when the icon is grayed out and you attempt to log in to client -1 with the user. The user will be locked out.
+</p>
+<br />
+
+<p>
+  
+![Screenshot 2025-02-03 171727](https://github.com/user-attachments/assets/9b4372b7-ab5a-4313-bfdf-c7bad99206d1)
+
+![Screenshot 2025-02-03 172004](https://github.com/user-attachments/assets/855ea3ab-a540-4bca-bbc8-d144b6ba6258)
+
+![Screenshot 2025-02-03 172032](https://github.com/user-attachments/assets/6d31fa7c-bc47-4201-8fbb-0183688e8363)
+
+![Screenshot 2025-02-03 172152](https://github.com/user-attachments/assets/2869de56-fa8d-4e8f-8ace-a58392ac89d9)
+
+</p>
+<p>
+We will now enable the user account by returning to dc-1, finding the user in the active directory, right-clicking the user name, and selecting enable—login in client- 1 as user to check if the user can log on. 
+</p>
+<br />
+
+<p>
+  
+![Screenshot 2025-02-03 171727](https://github.com/user-attachments/assets/f974dded-cb06-4bf6-a0c8-7bcd8939e5e8)
+
+![Screenshot 2025-02-03 172237](https://github.com/user-attachments/assets/a15ccc77-5804-44e1-853d-a6eaeb5ca683)
+
+![Screenshot 2025-02-03 172303](https://github.com/user-attachments/assets/0c496840-41ba-4718-87b4-490ccf61db79)
+
+</p>
+<p>
+Let’s log in to dc-1 to observe the logs in the start menu type in eventwr.msc. Expand Windows Logs, select Security, and right-click Find the user previously locked out of their account. If we don’t see the failed login attempt, check the client -1 VM in Start type in eventwr.msc., but run as administrator. Used mydomain.com\jane_admin. Follow the same procedure we did for the dc-1 VM for observing the logs. You will see the Aduit Failure. 
+</p>
+<br />
+
+<p>
+  
+![Screenshot 2025-02-03 173437](https://github.com/user-attachments/assets/07d2449b-d678-4783-8072-aa5b47b0ec9b)
+
+![Screenshot 2025-02-03 173519](https://github.com/user-attachments/assets/45602c37-484a-45eb-965b-6a1a89040aca)
+
+![Screenshot 2025-02-03 173540](https://github.com/user-attachments/assets/0021751b-f1b9-466a-8932-bc33d320d659)
+
+![Screenshot 2025-02-03 173624](https://github.com/user-attachments/assets/9a30c18a-aa09-4982-8628-74964325e962)
+
+![Screenshot 2025-02-03 173649](https://github.com/user-attachments/assets/da7c35a1-98b7-499c-b25c-8d9fc0602c60)
+
+![Screenshot 2025-02-03 173818](https://github.com/user-attachments/assets/fcb5e52e-5664-47b0-813e-aedc32ae33cb)
+
+![Screenshot 2025-02-03 174058](https://github.com/user-attachments/assets/ee8a0b33-3e99-4f24-a2da-1d28638bc6e2)
+
+![Screenshot 2025-02-03 174123](https://github.com/user-attachments/assets/962f6e9b-6a55-4ab7-b15e-81e6fcd920ca)
+
+![Screenshot 2025-02-03 174215](https://github.com/user-attachments/assets/da6027e0-86bc-45b5-86fa-cf7d17d2b67a)
+
+![Screenshot 2025-02-03 174321](https://github.com/user-attachments/assets/7e0e6bd9-958f-485f-b33f-8affb1dc948b)
+
+![Screenshot 2025-02-03 174526](https://github.com/user-attachments/assets/1e60466e-4f29-4360-8b73-ebfd3d90b3fd)
+
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
