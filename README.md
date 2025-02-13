@@ -213,9 +213,55 @@ Let’s add a new employee, Jane Doe, to the _ADMINS folder, right-click New, an
 
 ![Screenshot 2025-02-03 141041](https://github.com/user-attachments/assets/099d2503-2b17-4c83-8f5b-691449152069)
 
+![Screenshot 2025-02-03 141110](https://github.com/user-attachments/assets/8b624772-9e93-401a-8f24-d73712fb9c98)
+
 </p>
 <p>
 In the _ADMINS, right-click Jane Doe, go to properties, Member Of, Add, type in Domain Admins, hit Okay,  then apply and OK. Jane Doe is now a domain admin. Log out of dc-1 and log back in as “mydomain.com\jane_admin”. 
+</p>
+<br />
+
+<p>
+  
+![Screenshot 2025-02-03 141201](https://github.com/user-attachments/assets/edba380f-c0bc-4424-8c29-e0c1bebdc649)
+
+![Screenshot 2025-02-03 141242](https://github.com/user-attachments/assets/971596aa-ccef-47b4-9c9d-165b4c79025c)
+
+![Screenshot 2025-02-03 141317](https://github.com/user-attachments/assets/187ed273-0e55-476c-8c67-acee0735159c)
+
+![Screenshot 2025-02-03 141347](https://github.com/user-attachments/assets/c71b35ba-b4cd-43a2-a1ca-4f1964e1ef51)
+
+![Screenshot 2025-02-03 141424](https://github.com/user-attachments/assets/636dc7b3-a028-40e3-a0f5-b25629722f3a)
+
+![Screenshot 2025-02-03 141450](https://github.com/user-attachments/assets/06bc3e52-2644-4e15-af5c-8e8e3955d96f)
+
+![Screenshot 2025-02-03 141532](https://github.com/user-attachments/assets/68f0b4b7-0ce4-43ee-a7a2-53d5a02dc56c)
+
+</p>
+<p>
+Log in to Client-1, go to Windows System, Rename this PC(advanced), and click on Change under the computer name tab. Write in Member of Domain: mydomain.com, then OK. Then, write mydomain.com\jane_admin and the password for jane_admin, hit OK, and you should see a pop-up window welcoming you to the mydomain.com domain. The client -1 VM will restart.
+</p>
+<br />
+
+<p>
+  
+![Screenshot 2025-02-03 143521](https://github.com/user-attachments/assets/31a63d4a-3195-4c65-8f97-0ee09934d5e5)
+
+![Screenshot 2025-02-03 143622](https://github.com/user-attachments/assets/cd4b571b-9eaa-48bd-bc98-b8e25e55d69c)
+
+![Screenshot 2025-02-03 143706](https://github.com/user-attachments/assets/81e160f3-f2d5-4c20-b1e8-3b40518a2027)
+
+![Screenshot 2025-02-03 143754](https://github.com/user-attachments/assets/2e9c2e10-bc32-43af-ab3d-0b2776c2a2b8)
+
+![Screenshot 2025-02-03 143915](https://github.com/user-attachments/assets/38110b2e-9bba-46b4-9a28-313623220aca)
+
+![Screenshot 2025-02-03 144100](https://github.com/user-attachments/assets/97866cec-ce8e-4d13-96c5-2fa707a3c55f)
+
+![Screenshot 2025-02-03 144147](https://github.com/user-attachments/assets/59d75d4c-0adf-4efd-aaad-a4b1c9cbcda3)
+
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
