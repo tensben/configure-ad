@@ -129,9 +129,6 @@ Run in the PowerShell ipconfig/all; dc-1 private IP address should be seen in th
 
 </p>
 
-
-
-
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
@@ -280,6 +277,66 @@ Log in to dc-1 and go to Active Directory Users and Computers. Expand mydomain.c
 ![Screenshot 2025-02-03 144753](https://github.com/user-attachments/assets/2484fbf7-f378-402b-a0fe-771a7014c3c5)
 
 </p>
+
+
+<h2>Creating Users with PowerShell</h2>
+
+<p>
+Log in to client—1 VM as jane_admin. Open system properties and click on remote desktop. Under the user account, select users who can remotely access this PC highlighted. Add Domain Users and hit OK. Now, all users have access to the remote desktop.
+</p>
+<br />
+
+<p>
+  
+![Screenshot 2025-02-03 145115](https://github.com/user-attachments/assets/a11907b0-bfb6-45b0-8523-1aa5f4915648)
+
+![Screenshot 2025-02-03 145200](https://github.com/user-attachments/assets/881c7880-a0b6-4b8f-81ca-1f997f3b39d3)
+
+![Screenshot 2025-02-03 145229](https://github.com/user-attachments/assets/1202af1d-c3bd-44de-b6f8-52519710c92d)
+
+![Screenshot 2025-02-03 145414](https://github.com/user-attachments/assets/7757df53-1c88-44e2-9a18-dd876c06db69)
+
+![Screenshot 2025-02-03 145432](https://github.com/user-attachments/assets/91e3d8f1-add1-4a6f-93ac-c6579de27685)
+
+</p>
+<p>
+Log into dc-1 as jane _admin. Then, open Windows Powershell ISE as an administrator. Create a new file and paste the script provided into it. Save the file as create_users. Click the green arrow to Run the script. The script creates users with different names. 
+</p>
+<br />
+
+<p>
+  
+![Screenshot 2025-02-03 145810](https://github.com/user-attachments/assets/c9dba95a-2e89-4723-98ee-a7e41d46c073)
+
+![Screenshot 2025-02-03 150027](https://github.com/user-attachments/assets/48b43988-eaef-4e98-a2c3-a0aab45d0ac4)
+
+![Screenshot 2025-02-03 150041](https://github.com/user-attachments/assets/71035962-5383-4e56-b08c-cfd131a91f24)
+
+![Screenshot 2025-02-03 150104](https://github.com/user-attachments/assets/f4853cc7-1eb2-46b9-817c-df42018d665a)
+
+![Screenshot 2025-02-03 150132](https://github.com/user-attachments/assets/e38b1ac1-26ee-49f4-b471-8c4ec6395430)
+
+![Screenshot 2025-02-03 150310](https://github.com/user-attachments/assets/9cc0eb0d-9a83-40b5-a75e-84881374fa7b)
+
+![Screenshot 2025-02-03 150419](https://github.com/user-attachments/assets/db305c3d-29eb-45ef-9a8a-ef31848ed8ab)
+
+![Screenshot 2025-02-03 155036](https://github.com/user-attachments/assets/6f5d66ac-6c00-49fb-93ab-31dc99fcf933)
+
+</p>
+<p>
+Once the script is finished, open ADUC and see the _EMPLOYEES folder. Choose one of the users created and login to client-1 VM.
+</p>
+<br />
+
+<p>
+  
+![Screenshot 2025-02-03 155403](https://github.com/user-attachments/assets/d46f9dc6-ba0f-4c6b-8b78-708cf82e9c44)
+
+![Screenshot 2025-02-03 160105](https://github.com/user-attachments/assets/6a0e81ea-0e45-4ac1-a528-f76708856f90)
+
+![Screenshot 2025-02-03 160147](https://github.com/user-attachments/assets/74b70052-138a-445b-9001-204b8aee5819)
+
+</p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
@@ -293,7 +350,29 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
-<h2>Creating Users with PowerShell</h2>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -332,6 +411,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
