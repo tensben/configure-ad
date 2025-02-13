@@ -261,12 +261,24 @@ Log in to Client-1, go to Windows System, Rename this PC(advanced), and click on
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Log in to dc-1 and go to Active Directory Users and Computers. Expand mydomain.com, select Computers, and you will see client-1. Create a new OU called _CLIENTS, then drag client -1 into the folder. Refresh mydomain.com; everything created so far should be in its proper folder.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![Screenshot 2025-02-03 144414](https://github.com/user-attachments/assets/6728e169-9371-47b6-aca1-40f0e34f1149)
+
+![Screenshot 2025-02-03 144512](https://github.com/user-attachments/assets/a4bd43c3-9d9a-4997-a6ab-088c8456a424)
+
+![Screenshot 2025-02-03 144552](https://github.com/user-attachments/assets/c6b7bb69-acb6-4188-9f0b-f40f5171df25)
+
+![Screenshot 2025-02-03 144626](https://github.com/user-attachments/assets/460630c0-8140-4da1-bc17-5675c0ffc3ce)
+
+![Screenshot 2025-02-03 144738](https://github.com/user-attachments/assets/c31d476c-35bf-45e2-b012-2abe863921d4)
+
+![Screenshot 2025-02-03 144753](https://github.com/user-attachments/assets/2484fbf7-f378-402b-a0fe-771a7014c3c5)
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
