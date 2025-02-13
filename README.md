@@ -61,15 +61,7 @@ In Azure, we will create two virtual machines (VMs) in the same resource group a
 ![Screenshot 2025-02-01 073428](https://github.com/user-attachments/assets/ee3aadc2-9033-4e17-9137-bdcd19f2f39b)
 
 </p>
-
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+>
 <p>
 In the dc-1 VM, we will set the private IP address to static. We have set the IP address to static because client-1 uses the dc-1 server. If that changes, the DNS settings for client -1 will no longer be valid. Go to the dc -1 virtual machine, networking, networking settings, and select Network interface/IP configuration. Click ipconfig1, choose static in Private IP address settings Allocation, and save.
 </p>
